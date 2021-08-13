@@ -1,0 +1,4 @@
+#! /bin/bash
+
+node scripts/filter-csv.js
+node scripts/csv-to-json.js

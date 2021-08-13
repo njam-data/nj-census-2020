@@ -1,0 +1,30 @@
+{
+  "name": "@njam-data/nj-census-2020",
+  "version": "0.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/njam-data/nj-census-2020.git"
+  },
+  "keywords": [
+    "census",
+    "census 2020",
+    "nj",
+    "new jersey"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/njam-data/nj-census-2020/issues"
+  },
+  "homepage": "https://github.com/njam-data/nj-census-2020#readme",
+  "devDependencies": {
+    "@njam-data/tools": "^1.5.0",
+    "lodash": "^4.17.21"
+  }
+}
