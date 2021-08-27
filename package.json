@@ -5,7 +5,7 @@
   "main": "index.js",
   "type": "module",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "process": "./scripts/process"
   },
   "repository": {
     "type": "git",
@@ -25,5 +25,8 @@
   "homepage": "https://github.com/njam-data/nj-census-2020#readme",
   "devDependencies": {
     "@njam-data/tools": "^2.0.0"
+  },
+  "dependencies": {
+    "@njam-data/njam": "^0.0.0"
   }
 }

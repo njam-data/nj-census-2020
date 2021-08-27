@@ -1,4 +1,7 @@
 #! /bin/bash
 
+mkdir -p data/processed/big-local-news/data-dictionaries/
+npx njam xlsx-to-csv -f data/source/big-local-news/00_Data_Dictionary_2010_2020_PL94171_select_files.xlsx -o data/processed/big-local-news/data-dictionaries/
+
 node scripts/filter-csv.js
 node scripts/csv-to-json.js
