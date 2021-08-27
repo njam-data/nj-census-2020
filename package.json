@@ -26,8 +26,5 @@
   "devDependencies": {
     "@njam-data/tools": "^2.0.0",
     "lodash": "^4.17.21"
-  },
-  "dependencies": {
-    "ndjson-cli": "^0.3.1"
   }
 }
