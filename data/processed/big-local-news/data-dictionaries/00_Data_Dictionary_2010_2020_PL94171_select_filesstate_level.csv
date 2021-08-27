@@ -1,0 +1,189 @@
+Variable,Description
+ GEOID,"Full GEOID including prefix - used to connect to shapefiles. Ex: ""0400000US44"""
+ state_code,State FIPS code (2-digit)
+ state_abbr,State Abbreviation
+ state_name,State Name
+ `2010_density`,2010 Population density (total population/land area sqmi)
+ `2010_diversity_index`,2010 Diversity Index (includes 8 non-ovelapping race/ethnic groups recommended by OMB)
+ `2010_pop`,2010 Total Population
+ `2010_pop_hisp`,2010 Hispanic Population
+ `2010_pop_white_non_hisp`,"2010 White alone, Non-Hispanic Population"
+ `2010_pop_black_non_hisp`,"2010 Black alone, Non-Hispanic Population"
+ `2010_pop_aian_non_hisp`,"2010 American Indian and Alaska Native alone, Non-Hispanic Population"
+ `2010_pop_asian_non_hisp`,"2010 Asian alone, Non-Hispanic Population"
+ `2010_pop_nhpi_non_hisp`,"2010 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population"
+ `2010_pop_other_non_hisp`,"2010 Some Other Race alone, Non-Hispanic Population"
+ `2010_pop_two_plus_non_hisp`,"2010 Two or More Races, Non-Hispanic Population"
+ `2010_vap`,2010 Population 18 Years and Over
+ `2010_vap_hisp`,2010 Hispanic Population 18 Years and Over
+ `2010_vap_white_non_hisp`,"2010 White alone, Non-Hispanic Population 18 Years and Over"
+ `2010_vap_black_non_hisp`,"2010 Black alone, Non-Hispanic Population 18 Years and Over"
+ `2010_vap_aian_non_hisp`,"2010 American Indian and Alaska Native alone, Non-Hispanic 18 Years and Over"
+ `2010_vap_asian_non_hisp`,"2010 Asian alone, Non-Hispanic Population 18 Years and Over"
+ `2010_vap_nhpi_non_hisp`,"2010 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population 18 Years and Over"
+ `2010_vap_other_non_hisp`,"2010 Some Other Race alone, Non-Hispanic Population 18 Years and Over"
+ `2010_vap_two_plus_non_hisp`,"2010 Two or More Races, Non-Hispanic Population 18 Years and Over"
+ `2010_u18`,2010 Population Under 18 Years
+ `2010_u18_hisp`,2010 Hispanic Population Under 18 Years
+ `2010_u18_white_non_hisp`,"2010 White alone, Non-Hispanic Population Under 18 Years"
+ `2010_u18_black_non_hisp`,"2010 Black alone, Non-Hispanic Population Under 18 Years"
+ `2010_u18_aian_non_hisp`,"2010 American Indian and Alaska Native alone, Non-Hispanic Under 18 Years"
+ `2010_u18_asian_non_hisp`,"2010 Asian alone, Non-Hispanic Population Under 18 Years"
+ `2010_u18_nhpi_non_hisp`,"2010 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population Under 18 Years"
+ `2010_u18_other_non_hisp`,"2010 Some Other Race alone, Non-Hispanic Population Under 18 Years"
+ `2010_u18_two_plus_non_hisp`,"2010 Two or More Races, Non-Hispanic Population Under 18 Years"
+ `2010_gq`,2010 Group Quarters Population
+ `2010_gq_inst`,2010 Group Quarters Population - Institutionalized
+ `2010_gq_inst_correctional`,2010 Group Quarters Population - Institutionalized - Correctional Facilities for Adults
+ `2010_gq_inst_juvenile`,2010 Group Quarters Population - Institutionalized - Juvenile Facilities
+ `2010_gq_inst_nurse`,2010 Group Quarters Population - Institutionalized - Nursing Facilities/Skilled-Nursing Facilities 
+ `2010_gq_inst_other`,2010 Group Quarters Population - Institutionalized - Other Institutional Facilities 
+ `2010_gq_noninst`,2010 Group Quarters Population - Noninstitutionalized
+ `2010_gq_noninst_college`,2010 Group Quarters Population - Noninstitutionalized - College/University Student Housing 
+ `2010_gq_noninst_military`,2010 Group Quarters Population - Noninstitutionalized - Military Quarters 
+ `2010_gq_noninst_other`,2010 Group Quarters Population - Noninstitutionalized - Other Noninstitutional Facilities 
+ `2010_prop_gq_inst_correctional_of_pop`,2010 Proportion Group Quarters Population - Institutionalized - Correctional Facilities for Adults of Total Population
+ `2010_hu`,2010 Total Housing Units
+ `2010_hu_occupied`,2010 Housing Units - Occupied
+ `2010_hu_vacant`,2010 Housing Units - Vacant
+ `2010_vacancy_rate`,2010 Vacancy Rate (Vacant Housing Units/Total Housing Units)
+ `2010_land_area_sqmeters`,2010 Land Area (square meters)
+ `2010_land_area_sqmi`,2010 Land Area (square miles)
+ `2010_water_area_sqmeters`,2010 Water Area (square meters)
+ `2020_density`,2020 Population density (total population/land area sqmi)
+ `2020_diversity_index`,2020 Diversity Index (includes 8 non-ovelapping race/ethnic groups recommended by OMB)
+ `2020_pop`,2020 Total Population
+ `2020_pop_hisp`,2020 Hispanic Population
+ `2020_pop_white_non_hisp`,"2020 White alone, Non-Hispanic Population"
+ `2020_pop_black_non_hisp`,"2020 Black alone, Non-Hispanic Population"
+ `2020_pop_aian_non_hisp`,"2020 American Indian and Alaska Native alone, Non-Hispanic Population"
+ `2020_pop_asian_non_hisp`,"2020 Asian alone, Non-Hispanic Population"
+ `2020_pop_nhpi_non_hisp`,"2020 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population"
+ `2020_pop_other_non_hisp`,"2020 Some Other Race alone, Non-Hispanic Population"
+ `2020_pop_two_plus_non_hisp`,"2020 Two or More Races, Non-Hispanic Population"
+ `2020_vap`,2020 Population 18 Years and Over
+ `2020_vap_hisp`,2020 Hispanic Population 18 Years and Over
+ `2020_vap_white_non_hisp`,"2020 White alone, Non-Hispanic Population 18 Years and Over"
+ `2020_vap_black_non_hisp`,"2020 Black alone, Non-Hispanic Population 18 Years and Over"
+ `2020_vap_aian_non_hisp`,"2020 American Indian and Alaska Native alone, Non-Hispanic 18 Years and Over"
+ `2020_vap_asian_non_hisp`,"2020 Asian alone, Non-Hispanic Population 18 Years and Over"
+ `2020_vap_nhpi_non_hisp`,"2020 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population 18 Years and Over"
+ `2020_vap_other_non_hisp`,"2020 Some Other Race alone, Non-Hispanic Population 18 Years and Over"
+ `2020_vap_two_plus_non_hisp`,"2020 Two or More Races, Non-Hispanic Population 18 Years and Over"
+ `2020_u18`,2020 Population Under 18 Years
+ `2020_u18_hisp`,2020 Hispanic Population Under 18 Years
+ `2020_u18_white_non_hisp`,"2020 White alone, Non-Hispanic Population Under 18 Years"
+ `2020_u18_black_non_hisp`,"2020 Black alone, Non-Hispanic Population Under 18 Years"
+ `2020_u18_aian_non_hisp`,"2020 American Indian and Alaska Native alone, Non-Hispanic Under 18 Years"
+ `2020_u18_asian_non_hisp`,"2020 Asian alone, Non-Hispanic Population Under 18 Years"
+ `2020_u18_nhpi_non_hisp`,"2020 Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population Under 18 Years"
+ `2020_u18_other_non_hisp`,"2020 Some Other Race alone, Non-Hispanic Population Under 18 Years"
+ `2020_u18_two_plus_non_hisp`,"2020 Two or More Races, Non-Hispanic Population Under 18 Years"
+ `2020_gq`,2020 Group Quarters Population
+ `2020_gq_inst`,2020 Group Quarters Population - Institutionalized
+ `2020_gq_inst_correctional`,2020 Group Quarters Population - Institutionalized - Correctional Facilities for Adults
+ `2020_gq_inst_juvenile`,2020 Group Quarters Population - Institutionalized - Juvenile Facilities
+ `2020_gq_inst_nurse`,2020 Group Quarters Population - Institutionalized - Nursing Facilities/Skilled-Nursing Facilities 
+ `2020_gq_inst_other`,2020 Group Quarters Population - Institutionalized - Other Institutional Facilities 
+ `2020_gq_noninst`,2020 Group Quarters Population - Noninstitutionalized
+ `2020_gq_noninst_college`,2020 Group Quarters Population - Noninstitutionalized - College/University Student Housing 
+ `2020_gq_noninst_military`,2020 Group Quarters Population - Noninstitutionalized - Military Quarters 
+ `2020_gq_noninst_other`,2020 Group Quarters Population - Noninstitutionalized - Other Noninstitutional Facilities 
+ `2020_prop_gq_inst_correctional_of_pop`,2020 Proportion Group Quarters Population - Institutionalized - Correctional Facilities for Adults of Total Population
+ `2020_hu`,2020 Total Housing Units
+ `2020_hu_occupied`,2020 Housing Units - Occupied
+ `2020_hu_vacant`,2020 Housing Units - Vacant
+ `2020_vacancy_rate`,2020 Vacancy Rate (Vacant Housing Units/Total Housing Units)
+ `2020_land_area_sqmeters`,2020 Land Area (square meters)
+ `2020_land_area_sqmi`,2020 Land Area (square miles)
+ `2020_water_area_sqmeters`,2020 Water Area (square meters)
+ raw_change_density,Raw Change from 2010 to 2020: Population density (total population/land area sqmi)
+ raw_change_diversity_index,Raw Change from 2010 to 2020: Diversity Index (includes 8 non-ovelapping race/ethnic groups recommended by OMB)
+ raw_change_pop,Raw Change from 2010 to 2020: Total Population
+ raw_change_pop_hisp,Raw Change from 2010 to 2020: Hispanic Population
+ raw_change_pop_white_non_hisp,"Raw Change from 2010 to 2020: White alone, Non-Hispanic Population"
+ raw_change_pop_black_non_hisp,"Raw Change from 2010 to 2020: Black alone, Non-Hispanic Population"
+ raw_change_pop_aian_non_hisp,"Raw Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic Population"
+ raw_change_pop_asian_non_hisp,"Raw Change from 2010 to 2020: Asian alone, Non-Hispanic Population"
+ raw_change_pop_nhpi_non_hisp,"Raw Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population"
+ raw_change_pop_other_non_hisp,"Raw Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population"
+ raw_change_pop_two_plus_non_hisp,"Raw Change from 2010 to 2020: Two or More Races, Non-Hispanic Population"
+ raw_change_vap,Raw Change from 2010 to 2020: Population 18 Years and Over
+ raw_change_vap_hisp,Raw Change from 2010 to 2020: Hispanic Population 18 Years and Over
+ raw_change_vap_white_non_hisp,"Raw Change from 2010 to 2020: White alone, Non-Hispanic Population 18 Years and Over"
+ raw_change_vap_black_non_hisp,"Raw Change from 2010 to 2020: Black alone, Non-Hispanic Population 18 Years and Over"
+ raw_change_vap_aian_non_hisp,"Raw Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic 18 Years and Over"
+ raw_change_vap_asian_non_hisp,"Raw Change from 2010 to 2020: Asian alone, Non-Hispanic Population 18 Years and Over"
+ raw_change_vap_nhpi_non_hisp,"Raw Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population 18 Years and Over"
+ raw_change_vap_other_non_hisp,"Raw Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population 18 Years and Over"
+ raw_change_vap_two_plus_non_hisp,"Raw Change from 2010 to 2020: Two or More Races, Non-Hispanic Population 18 Years and Over"
+ raw_change_u18,Raw Change from 2010 to 2020: Population Under 18 Years
+ raw_change_u18_hisp,Raw Change from 2010 to 2020: Hispanic Population Under 18 Years
+ raw_change_u18_white_non_hisp,"Raw Change from 2010 to 2020: White alone, Non-Hispanic Population Under 18 Years"
+ raw_change_u18_black_non_hisp,"Raw Change from 2010 to 2020: Black alone, Non-Hispanic Population Under 18 Years"
+ raw_change_u18_aian_non_hisp,"Raw Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic Under 18 Years"
+ raw_change_u18_asian_non_hisp,"Raw Change from 2010 to 2020: Asian alone, Non-Hispanic Population Under 18 Years"
+ raw_change_u18_nhpi_non_hisp,"Raw Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population Under 18 Years"
+ raw_change_u18_other_non_hisp,"Raw Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population Under 18 Years"
+ raw_change_u18_two_plus_non_hisp,"Raw Change from 2010 to 2020: Two or More Races, Non-Hispanic Population Under 18 Years"
+ raw_change_gq,Raw Change from 2010 to 2020: Group Quarters Population
+ raw_change_gq_inst,Raw Change from 2010 to 2020: Group Quarters Population - Institutionalized
+ raw_change_gq_inst_correctional,Raw Change from 2010 to 2020: Group Quarters Population - Institutionalized - Correctional Facilities for Adults
+ raw_change_gq_inst_juvenile,Raw Change from 2010 to 2020: Group Quarters Population - Institutionalized - Juvenile Facilities
+ raw_change_gq_inst_nurse,Raw Change from 2010 to 2020: Group Quarters Population - Institutionalized - Nursing Facilities/Skilled-Nursing Facilities 
+ raw_change_gq_inst_other,Raw Change from 2010 to 2020: Group Quarters Population - Institutionalized - Other Institutional Facilities 
+ raw_change_gq_noninst,Raw Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized
+ raw_change_gq_noninst_college,Raw Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - College/University Student Housing 
+ raw_change_gq_noninst_military,Raw Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - Military Quarters 
+ raw_change_gq_noninst_other,Raw Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - Other Noninstitutional Facilities 
+ raw_change_prop_gq_inst_correctional_of_pop,Raw Change from 2010 to 2020: Proportion Group Quarters Population - Institutionalized - Correctional Facilities for Adults of Total Population
+ raw_change_hu,Raw Change from 2010 to 2020: Total Housing Units
+ raw_change_hu_occupied,Raw Change from 2010 to 2020: Housing Units - Occupied
+ raw_change_hu_vacant,Raw Change from 2010 to 2020: Housing Units - Vacant
+ raw_change_vacancy_rate,Raw Change from 2010 to 2020: Vacancy Rate (Vacant Housing Units/Total Housing Units)
+ raw_change_land_area_meters,Raw Change from 2010 to 2020: Land Area (square meters)
+ raw_change_land_area_sqmi,Raw Change from 2010 to 2020: Land Area (square miles)
+ raw_change_water_area_meters,Raw Change from 2010 to 2020: Water Area (square meters)
+ prop_change_density,Percent Change from 2010 to 2020: Population density (total population/land area sqmi)
+ prop_change_pop,Percent Change from 2010 to 2020: Total Population
+ prop_change_pop_hisp,Percent Change from 2010 to 2020: Hispanic Population
+ prop_change_pop_white_non_hisp,"Percent Change from 2010 to 2020: White alone, Non-Hispanic Population"
+ prop_change_pop_black_non_hisp,"Percent Change from 2010 to 2020: Black alone, Non-Hispanic Population"
+ prop_change_pop_aian_non_hisp,"Percent Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic Population"
+ prop_change_pop_asian_non_hisp,"Percent Change from 2010 to 2020: Asian alone, Non-Hispanic Population"
+ prop_change_pop_nhpi_non_hisp,"Percent Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population"
+ prop_change_pop_other_non_hisp,"Percent Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population"
+ prop_change_pop_two_plus_non_hisp,"Percent Change from 2010 to 2020: Two or More Races, Non-Hispanic Population"
+ prop_change_vap,Percent Change from 2010 to 2020: Population 18 Years and Over
+ prop_change_vap_hisp,Percent Change from 2010 to 2020: Hispanic Population 18 Years and Over
+ prop_change_vap_white_non_hisp,"Percent Change from 2010 to 2020: White alone, Non-Hispanic Population 18 Years and Over"
+ prop_change_vap_black_non_hisp,"Percent Change from 2010 to 2020: Black alone, Non-Hispanic Population 18 Years and Over"
+ prop_change_vap_aian_non_hisp,"Percent Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic 18 Years and Over"
+ prop_change_vap_asian_non_hisp,"Percent Change from 2010 to 2020: Asian alone, Non-Hispanic Population 18 Years and Over"
+ prop_change_vap_nhpi_non_hisp,"Percent Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population 18 Years and Over"
+ prop_change_vap_other_non_hisp,"Percent Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population 18 Years and Over"
+ prop_change_vap_two_plus_non_hisp,"Percent Change from 2010 to 2020: Two or More Races, Non-Hispanic Population 18 Years and Over"
+ prop_change_u18,Percent Change from 2010 to 2020: Population Under 18 Years
+ prop_change_u18_hisp,Percent Change from 2010 to 2020: Hispanic Population Under 18 Years
+ prop_change_u18_white_non_hisp,"Percent Change from 2010 to 2020: White alone, Non-Hispanic Population Under 18 Years"
+ prop_change_u18_black_non_hisp,"Percent Change from 2010 to 2020: Black alone, Non-Hispanic Population Under 18 Years"
+ prop_change_u18_aian_non_hisp,"Percent Change from 2010 to 2020: American Indian and Alaska Native alone, Non-Hispanic Under 18 Years"
+ prop_change_u18_asian_non_hisp,"Percent Change from 2010 to 2020: Asian alone, Non-Hispanic Population Under 18 Years"
+ prop_change_u18_nhpi_non_hisp,"Percent Change from 2010 to 2020: Native Hawaiian and Other Pacific Islander alone, Non-Hispanic Population Under 18 Years"
+ prop_change_u18_other_non_hisp,"Percent Change from 2010 to 2020: Some Other Race alone, Non-Hispanic Population Under 18 Years"
+ prop_change_u18_two_plus_non_hisp,"Percent Change from 2010 to 2020: Two or More Races, Non-Hispanic Population Under 18 Years"
+ prop_change_gq,Percent Change from 2010 to 2020: Group Quarters Population
+ prop_change_gq_inst,Percent Change from 2010 to 2020: Group Quarters Population - Institutionalized
+ prop_change_gq_inst_correctional,Percent Change from 2010 to 2020: Group Quarters Population - Institutionalized - Correctional Facilities for Adults
+ prop_change_gq_inst_juvenile,Percent Change from 2010 to 2020: Group Quarters Population - Institutionalized - Juvenile Facilities
+ prop_change_gq_inst_nurse,Percent Change from 2010 to 2020: Group Quarters Population - Institutionalized - Nursing Facilities/Skilled-Nursing Facilities 
+ prop_change_gq_inst_other,Percent Change from 2010 to 2020: Group Quarters Population - Institutionalized - Other Institutional Facilities 
+ prop_change_gq_noninst,Percent Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized
+ prop_change_gq_noninst_college,Percent Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - College/University Student Housing 
+ prop_change_gq_noninst_military,Percent Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - Military Quarters 
+ prop_change_gq_noninst_other,Percent Change from 2010 to 2020: Group Quarters Population - Noninstitutionalized - Other Noninstitutional Facilities 
+ prop_change_hu,Percent Change from 2010 to 2020: Total Housing Units
+ prop_change_hu_occupied,Percent Change from 2010 to 2020: Housing Units - Occupied
+ prop_change_hu_vacant,Percent Change from 2010 to 2020: Housing Units - Vacant
+ prop_change_land_area_sqmi,Percent Change from 2010 to 2020: Land Area (square miles)
+ flag_prop_change_land_area,Flag indicating that the land area changed more than 10% from 2010 to 2020 (-1 = decreased; 1 = increased; 0 = no increase or decrease more than 10%)
