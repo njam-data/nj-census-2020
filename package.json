@@ -24,9 +24,9 @@
   },
   "homepage": "https://github.com/njam-data/nj-census-2020#readme",
   "devDependencies": {
-    "@njam-data/tools": "^2.0.0"
+    "@njam-data/njam": "^0.0.0"
   },
   "dependencies": {
-    "@njam-data/njam": "^0.0.0"
+    "@njam-data/tools": "^2.1.0"
   }
 }
