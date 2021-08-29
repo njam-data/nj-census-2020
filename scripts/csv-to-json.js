@@ -9,7 +9,18 @@ async function main () {
     const { csv, json } = filepaths[key]
     let rows = await readCsv(csv, { headers: true })
 
-    rows = rows.map((row) => {
+    rows = rows
+    .filter((row) => {
+      if (row.state_abbr) {
+        if (row.state_abbr === 'NJ') {
+          return true
+        }
+        return false
+      }
+
+      return true
+    })
+    .map((row) => {
       return convertNumberProperties(row)
     })
 
