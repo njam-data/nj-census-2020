@@ -27,12 +27,5 @@ export async function getData (options = {}) {
     throw new Error(`file not found for dataset ${dataset} with format ${format}`)
   }
 
-  if (format === 'json') {
-    const rows = await reader(filepath)
-    return rows.map((row) => {
-      return convertNumberProperties(row)
-    })
-  }
-
   return reader(filepath)
 }
