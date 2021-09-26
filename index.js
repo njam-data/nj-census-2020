@@ -11,12 +11,12 @@ const readers = {
 /**
  * get 2020 census data
  * @param object options
- * @param string options.dataset - default: 'county_subdivision'. options: state, county, county_subdivision, place, tract
+ * @param string options.dataset - default: 'state'. options: state, county, county_subdivision, place, tract
  * @param string options.format - default: 'json'
  */
 export async function getData (options = {}) {
   const {
-    dataset = 'county_subdivision',
+    dataset = 'state',
     format = 'json'
   } = options
 
